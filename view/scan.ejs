@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>body{
+    font-family: Roboto Condensed;
+    font-weight: 520;
+    font-size: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .container
+{
+  display:block;
+  margin-left: 40%;
+  margin-right: auto;
+  padding: 20px;
+}
+img{
+    margin-left: 7%;
+    margin-right: auto;
+}
+</style>
+<body>
+    <div class="container">
+        <h1>Generated QR Code</h1>
+        <br>
+        <img src=<%=qr_code %> alt="QR Code">
+        <br><br>
+        <a style="color:white ; text-decoration: none;margin-left: 8%;" href="/"><button  >Back</button></a>
+        
+        
+    </div>
+</body>
+
+</html>
